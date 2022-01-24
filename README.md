@@ -4,4 +4,15 @@ Application hacking scripts. All scripts are generic and intended to be expandab
 
 - [ ] Mapping
 - [ ] Guessing logins
-- [ ] Vulnerability scanning
+- [ ] Vulnerability scanning (generic)
+
+## Vulnerabilities to check
+
+- [ ] Username Enumeration 
+- [ ] Insecure Direct Object Reference (IDOR)
+- [ ] SQL Injection (SQLI)
+- [ ] Cross-Site Scripting (XSS)
+- [ ] Cross-Site Request Forgery (CSRF)
+- [ ] Session Hijacking/Fixation
+- [ ] Formjacking
+- [ ] Remote code execution
