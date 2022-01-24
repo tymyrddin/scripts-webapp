@@ -8,7 +8,7 @@
 
 ## Mapping
 
-## Login
+## Guessing logins
 
 ## Vulnerability scanning
 
