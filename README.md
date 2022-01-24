@@ -1,6 +1,6 @@
 # Reomais
 
-(Web) Application hacking scripts. 
+Website/Web Application hacking scripts.
 
 ## Requirements
 
@@ -10,9 +10,9 @@
 
 ## Scripts
 
-All scripts start generic and intend to be [expandable to various specific scenarios](https://github.com/tymyrddin/reomais/wiki).
+All scripts start generic to be [expandable to various specific scenarios](https://github.com/tymyrddin/reomais/wiki).
 
-- [ ] [Mapping](mapping)       <= in progress
+- [ ] [Mapping](mapping)                   <= in progress
 - [ ] [Guessing logins](guessing)
 - [ ] [Vulnerability scanning](scanning)
 
