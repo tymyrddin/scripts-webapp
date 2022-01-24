@@ -1,12 +1,16 @@
 # Reomais
 
-Application hacking scripts. All scripts are generic and intended to be expandable to various specific scenarios.
+(Web) Application hacking scripts. All scripts start generic and intend to be [expandable to various specific scenarios](https://github.com/tymyrddin/reomais/wiki).
 
 - [ ] Mapping
 - [ ] Guessing logins
 - [ ] Vulnerability scanning (generic)
 
-## Vulnerabilities to check
+## Mapping
+
+## Login
+
+## Vulnerability scanning
 
 - [ ] Username Enumeration 
 - [ ] Insecure Direct Object Reference (IDOR)
@@ -16,3 +20,9 @@ Application hacking scripts. All scripts are generic and intended to be expandab
 - [ ] Session Hijacking/Fixation
 - [ ] Formjacking
 - [ ] Remote code execution
+
+## Problems or Suggestions
+
+This project welcomes contributions and suggestions. 
+
+[Open an issue here](https://github.com/tymyrddin/reomais/issues)
