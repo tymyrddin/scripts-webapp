@@ -1,6 +1,16 @@
 # Reomais
 
-(Web) Application hacking scripts. All scripts start generic and intend to be [expandable to various specific scenarios](https://github.com/tymyrddin/reomais/wiki).
+(Web) Application hacking scripts. 
+
+## Requirements
+
+* [A small pentesting lab](https://github.com/tymyrddin/ymrir/wiki/pentesting-lab.md) with Kali, Windows 10 and [metasploitable](https://information.rapid7.com/metasploitable-download.html) (virtual) machines. Host was an Ubuntu 20.04.
+* Python 3
+* The scripts have defaults set for our lab. If you wish to run these, change the defaults to your context or provide argumants.
+
+## Scripts
+
+All scripts start generic and intend to be [expandable to various specific scenarios](https://github.com/tymyrddin/reomais/wiki).
 
 - [ ] [Mapping](mapping)       <= in progress
 - [ ] [Guessing logins](guessing)
