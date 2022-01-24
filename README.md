@@ -2,9 +2,9 @@
 
 (Web) Application hacking scripts. All scripts start generic and intend to be [expandable to various specific scenarios](https://github.com/tymyrddin/reomais/wiki).
 
-- [ ] Mapping
-- [ ] Guessing logins
-- [ ] Vulnerability scanning (generic)
+- [ ] [Mapping](mapping)       <= in progress
+- [ ] [Guessing logins](guessing)
+- [ ] [Vulnerability scanning](scanning)
 
 ## Mapping
 
