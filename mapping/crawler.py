@@ -17,7 +17,7 @@ def get_args():
         ),
     )
     parser.add_argument("-u", "--url", default="192.168.122.131/mutillidae", help="target url")
-    parser.add_argument("-t", "--type", default="dirs", help="crawl type: subdomains, dirs")
+    parser.add_argument("-t", "--type", default="urls", help="crawl type: subdomains, urls")
     values = parser.parse_args()
     return values
 
@@ -41,7 +41,7 @@ def discover_subdomains(target_url):
         print("[+] Done")
 
 
-def discover_hidden_dirs(target_url):
+def discover_hidden_urls(target_url):
     print("[+] Crawling for hidden directories")
     with open("files-and-dirs-wordlist.txt", "r") as wordlist_file:
         for line in wordlist_file:
@@ -49,7 +49,7 @@ def discover_hidden_dirs(target_url):
             test_url = target_url + "/" + word
             response = request(test_url)
             if response:
-                print("[+] Discovered directory: " + test_url)
+                print("[+] Discovered url: " + test_url)
         print("[+] Done")
 
 
@@ -57,8 +57,8 @@ if __name__ == "__main__":
 
     options = get_args()
     try:
-        if options.type == "dirs":
-            discover_hidden_dirs(options.url)
+        if options.type == "urls":
+            discover_hidden_urls(options.url)
         elif options.type == "subdomains":
             discover_subdomains(options.url)
     except KeyboardInterrupt:
