@@ -1,6 +1,6 @@
 # Reomais
 
-Another non-boring way to get some more practice with Python. Website/Web Application hacking scripts.
+Another non-boring way to practice some more with Python: Website/Web Application hacking scripts.
 
 ## Requirements
 
