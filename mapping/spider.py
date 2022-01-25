@@ -35,7 +35,7 @@ def crawl(target_url):
         link = urlparse.urljoin(target_url, link)
         # Strip # markup
         link = link.split("#")[0]
-        # Exclude external links
+        # Only local links and make unique
         if target_url in link and link not in target_links:
             target_links.append(link)
             print(link)
@@ -46,4 +46,8 @@ if __name__ == "__main__":
 
     options = get_args()
     target_links = []
-    crawl(options.url)
+    try:
+        crawl(options.url)
+    except KeyboardInterrupt:
+        print("\n[+] Detected CTRL+C ... ")
+        print("[+] Done")
