@@ -1,6 +1,6 @@
 # Reomais
 
-Website/Web Application hacking scripts.
+Another non-boring way to learn Python. Website/Web Application hacking scripts.
 
 ## Requirements
 
@@ -12,7 +12,7 @@ Website/Web Application hacking scripts.
 
 All scripts start generic to be [expandable to various specific scenarios](https://github.com/tymyrddin/reomais/wiki).
 
-- [ ] [Mapping](mapping)                   <= in progress
+- [x] [Mapping](mapping)                   <= in progress
 - [ ] [Guessing logins](guessing)
 - [ ] [Vulnerability scanning](scanning)
 
