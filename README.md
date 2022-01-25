@@ -6,7 +6,7 @@ Another non-boring way to get some more practice with Python. Website/Web Applic
 
 * [A small pentesting lab](https://github.com/tymyrddin/ymrir/wiki/pentesting-lab.md) with Kali, Windows 10 and [metasploitable](https://information.rapid7.com/metasploitable-download.html) (virtual) machines. Host was an Ubuntu 20.04.
 * Python 3
-* The scripts have defaults set for our lab. If you wish to run these, change the defaults to your context or provide argumants.
+* The scripts have defaults set for our lab. If you wish to run these, change the defaults to your context or provide arguments.
 
 ## Scripts
 
