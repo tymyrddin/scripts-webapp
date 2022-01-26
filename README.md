@@ -1,6 +1,7 @@
 # Reomais
 
 Another non-boring way to practice some more with Python: Website/Web Application hacking scripts.
+With many thanks to [EONRaider](https://github.com/EONRaider), [BlackHat](https://www.blackhat.com/), and [ZSecurity](https://zsecurity.org/).
 
 ## Requirements
 
