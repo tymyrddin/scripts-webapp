@@ -9,26 +9,11 @@ With many thanks to [EONRaider](https://github.com/EONRaider), [BlackHat](https:
 
 ## Scripts
 
-All scripts start generic to be [expandable to various specific scenarios](https://github.com/tymyrddin/reomais/wiki).
+All scripts start generic to be [expandable to various specific scenarios](https://github.com/tymyrddin/darkest-forest/tree/main/application-hacking).
 
 - [x] [Mapping](mapping)
 - [x] [Guessing logins](guessing)           <= in progress
 - [ ] [Vulnerability scanning](scanning)
-
-## Mapping
-
-## Guessing logins
-
-## Vulnerability scanning
-
-- [ ] Username Enumeration 
-- [ ] Insecure Direct Object Reference (IDOR)
-- [ ] SQL Injection (SQLI)
-- [ ] Cross-Site Scripting (XSS)
-- [ ] Cross-Site Request Forgery (CSRF)
-- [ ] Session Hijacking/Fixation
-- [ ] Formjacking
-- [ ] Remote code execution
 
 ## Problems or Suggestions
 

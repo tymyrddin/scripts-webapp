@@ -25,7 +25,7 @@ class Scanner:
         for link in href_links:
             # Convert relative links
             link = urlparse.urljoin(url, link)
-            # Strip # markup parts
+            # Strip # markup
             link = link.split("#")[0]
             # Only local links and make unique
             if self.target_url in link and link not in self.target_links and link not in self.links_to_ignore:
@@ -63,7 +63,6 @@ class Scanner:
             forms = self.extract_forms(link)
             for form in forms:
                 print("[+] Testing form in " + link)
-                # ...
+
             if "=" in link:
                 print("[+] Testing " + link)
-                # ...
