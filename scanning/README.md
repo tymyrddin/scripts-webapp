@@ -9,9 +9,6 @@ Regardless of the type of vulnerability, these steps are similar. Only payload a
 
 ## Test cases
 
-- [ ] Username Enumeration 
-- [ ] Insecure Direct Object Reference (IDOR)
-- [ ] SQL Injection (SQLI)
 - [ ] Cross-Site Scripting (XSS)
 - [ ] Cross-Site Request Forgery (CSRF)
 - [ ] Session Hijacking/Fixation
