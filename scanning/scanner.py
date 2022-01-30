@@ -35,7 +35,7 @@ class Scanner:
 
     def extract_forms(self, url):
         response = self.session.get(url)
-        parsed_html = BeautifulSoup(response.content.decode(), features="lxml")
+        parsed_html = BeautifulSoup(str(response.content), features="lxml")
         return parsed_html.findAll("form")
 
     def submit_form(self, form, value, url):
@@ -62,7 +62,25 @@ class Scanner:
         for link in self.target_links:
             forms = self.extract_forms(link)
             for form in forms:
-                print("[+] Testing form in " + link)
+                print("\n[+] Testing form in " + link)
+                is_vulnerable_to_xss = self.test_xss_in_form(form, link)
+                if is_vulnerable_to_xss:
+                    print("[***] XSS vuln found in link " + link + "in the form")
+                    print(form)
 
             if "=" in link:
-                print("[+] Testing " + link)
+                print("\n[+] Testing " + link)
+                is_vulnerable_to_xss = self.test_xss_in_link(link)
+                if is_vulnerable_to_xss:
+                    print("[***] XSS vuln found in link " + link)
+
+    def test_xss_in_link(self, url):
+        xss_test_script = "<sCript>alert('test')</scriPt>"
+        url = url.replace("=", "=" + xss_test_script)
+        response = self.session.get(url)
+        return xss_test_script.encode() in response.content
+
+    def test_xss_in_form(self, form, url):
+        xss_test_script = "<sCript>alert('test')</scriPt>"
+        response = self.submit_form(form, xss_test_script, url)
+        return xss_test_script.encode() in response.content

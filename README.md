@@ -12,8 +12,8 @@ With many thanks to [EONRaider](https://github.com/EONRaider), [BlackHat](https:
 All scripts start generic to be [expandable to various specific scenarios](https://github.com/tymyrddin/darkest-forest/tree/main/application-hacking).
 
 - [x] [Mapping](mapping)
-- [x] [Guessing logins](guessing)           <= in progress
-- [ ] [Vulnerability scanning](scanning)
+- [x] [Guessing logins](guessing)           
+- [x] [Vulnerability scanning](scanning) <= in progress
 
 ## Problems or Suggestions
 

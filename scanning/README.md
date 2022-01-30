@@ -9,8 +9,8 @@ Regardless of the type of vulnerability, these steps are similar. Only payload a
 
 ## Test cases
 
-- [ ] Cross-Site Scripting (XSS)
-- [ ] Cross-Site Request Forgery (CSRF)
+- [X] Cross-Site Scripting (XSS)
+- [ ] Cross-Site Request Forgery (CSRF) <= up next
 - [ ] Session Hijacking/Fixation
 - [ ] Formjacking
 - [ ] Remote code execution

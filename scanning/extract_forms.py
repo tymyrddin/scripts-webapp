@@ -15,7 +15,7 @@ def request(url):
 
 target_url = "http://192.168.122.131/mutillidae/index.php?page=dns-lookup.php"
 response = request(target_url)
-parsed_html = BeautifulSoup(response.content.decode(), features="lxml")
+parsed_html = BeautifulSoup(str(response.content), features="lxml")
 forms_list = parsed_html.findAll("form")
 
 for form in forms_list:
