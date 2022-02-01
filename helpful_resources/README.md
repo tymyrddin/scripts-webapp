@@ -1,4 +1,4 @@
-# Helpful libraries and packages
+# Helpful resources
 
 * The urllib library
 * The requests library
