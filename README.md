@@ -14,7 +14,7 @@ All scripts start generic to be [expandable to various specific scenarios](https
 - [ ] [Helpful resources](helpful_resources)
 - [x] [Simple crawler](crawler)
 - [x] [Simple spider](spider)
-- [ ] [Mapping Wordpress](mapping_wordpress)
+- [ ] [Mapping WordPress](mapping_wordpress)
 - [ ] [Brute-Forcing directories and file locations](bf_locations)
 - [ ] [Brute-Forcing WP HTML form authentication](bf_forms)
 - [x] [Password guessing](password_guessing)
