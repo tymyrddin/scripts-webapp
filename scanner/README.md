@@ -1,4 +1,4 @@
-# Vulnerability scanning
+# Vulnerability scanner
 
 * Visit every page of the target site (mapping)
 * Look for ways to send data to the web application (url, forms)
