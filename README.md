@@ -18,10 +18,11 @@ All scripts start generic to be [expandable to various specific scenarios](https
 - [ ] [Brute-Forcing directories and file locations](bf_locations)
 - [ ] [Brute-Forcing WP HTML form authentication](bf_forms)
 - [x] [Password guessing](password_guessing)
+- [x] [Vulnerability scanning](scanner) <= in progress
 - [ ] [Burp fuzzing](burp_fuzzing)
 - [ ] [Bing for Burp](bing_burp)
 - [ ] [Burp better wordlists](password_gold)
-- [x] [Vulnerability scanning](scanner) <= in progress
+
 
 ## Problems or Suggestions
 
