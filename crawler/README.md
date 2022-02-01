@@ -1,7 +1,7 @@
 # Simple crawler
 
-When you’re attacking a custom web application or large site, knowing all of the files accessible on the web
-server can be very handy. To this end, a crawler can discover as much of the web application as possible: configuration files, leftover development files, debugging scripts, and other security breadcrumbs can provide sensitive information or expose functionality that software developers did not intend. 
-The only way to discover this content is to use a brute-forcing tool to hunt down common filenames and directories.
+It is not uncommon for a single web server to serve several web applications. 
+If attacking the server, these other hostnames may give an easier way to get a shell. It is not rare to find an insecure web application, or even development resources, located on the same machine
+as the target.
 
-The basic functionality of it. It [gets as good as the wordlist is](/bf_locations).
+The basic functionality of it. It [gets as good as the wordlist is](/bing_burp).
