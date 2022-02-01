@@ -11,9 +11,17 @@ With many thanks to [EONRaider](https://github.com/EONRaider), [BlackHat](https:
 
 All scripts start generic to be [expandable to various specific scenarios](https://github.com/tymyrddin/darkest-forest/tree/main/application-hacking).
 
-- [x] [Mapping](mapping)
-- [x] [Guessing logins](guessing)           
-- [x] [Vulnerability scanning](scanning) <= in progress
+- [ ] [Helpful resources](helpful_resources)
+- [x] [Simple crawler](crawler)
+- [x] [Spider](spider)
+- [ ] [Mapping Wordpress](mapping_wordpress)
+- [ ] [Brute-Forcing directories and file locations](bf_locations)
+- [ ] [Brute-Forcing WP HTML form authentication](bf_forms)
+- [x] [Password guessing](password_guessing)
+- [ ] [Burp Fuzzing](burp_fuzzing)
+- [ ] [Bing for Burp](bing_burp)
+- [ ] [Turning Website Content into Password Gold](password_gold)
+- [x] [Vulnerability scanning](scanner) <= in progress
 
 ## Problems or Suggestions
 
