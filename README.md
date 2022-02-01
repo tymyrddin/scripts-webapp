@@ -20,7 +20,7 @@ All scripts start generic to be [expandable to various specific scenarios](https
 - [x] [Password guessing](password_guessing)
 - [ ] [Burp fuzzing](burp_fuzzing)
 - [ ] [Bing for Burp](bing_burp)
-- [ ] [Better wordlists](password_gold)
+- [ ] [Burp better wordlists](password_gold)
 - [x] [Vulnerability scanning](scanner) <= in progress
 
 ## Problems or Suggestions
