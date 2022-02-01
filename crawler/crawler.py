@@ -16,8 +16,12 @@ def get_args():
         """
         ),
     )
-    parser.add_argument("-u", "--url", default="192.168.122.131/mutillidae", help="target url")
-    parser.add_argument("-t", "--type", default="urls", help="crawl type: subdomains, urls")
+    parser.add_argument(
+        "-u", "--url", default="192.168.122.131/mutillidae", help="target url"
+    )
+    parser.add_argument(
+        "-t", "--type", default="urls", help="crawl type: subdomains, urls"
+    )
     values = parser.parse_args()
     return values
 
@@ -31,7 +35,7 @@ def request(target_url):
 
 def discover_subdomains(target_url):
     print("[+] Crawling for subdomains")
-    with open("../spider/subdomains-wordlist.txt", "r") as wordlist_file:
+    with open("subdomains-wordlist.txt", "r") as wordlist_file:
         for line in wordlist_file:
             word = line.strip()
             test_url = word + "." + target_url

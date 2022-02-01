@@ -28,7 +28,11 @@ class Scanner:
             # Strip # markup
             link = link.split("#")[0]
             # Only local links and make unique
-            if self.target_url in link and link not in self.target_links and link not in self.links_to_ignore:
+            if (
+                self.target_url in link
+                and link not in self.target_links
+                and link not in self.links_to_ignore
+            ):
                 self.target_links.append(link)
                 print(link)
                 self.crawl(link)

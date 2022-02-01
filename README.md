@@ -1,6 +1,6 @@
 # Reomais
 
-Another non-boring way to practice some more with Python 3: Website/Web Application hacking scripts.
+Another interesting way to practice some more with Python 3: Website/Web Application hacking scripts.
 With many thanks to [EONRaider](https://github.com/EONRaider), [BlackHat](https://www.blackhat.com/), and [ZSecurity](https://zsecurity.org/).
 
 ## Requirements
@@ -14,7 +14,7 @@ All scripts start generic to be [expandable to various specific scenarios](https
 - [x] [Helpful resources](helpful_resources)
 - [x] [Simple crawler](crawler)
 - [x] [Simple spider](spider)
-- [ ] [Mapping WordPress](mapping_wordpress)
+- [ ] [Mapping WordPress](mapping_wordpress) <= in progress
 - [ ] [Brute-Forcing directories and file locations](bf_locations)
 - [ ] [Brute-Forcing WP HTML form authentication](bf_forms)
 - [x] [Password guessing](password_guessing)

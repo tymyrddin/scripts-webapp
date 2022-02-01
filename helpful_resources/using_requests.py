@@ -2,7 +2,7 @@
 
 import requests  # https://docs.python-requests.org/en/master/
 
-url = 'http://192.168.122.131/dvwa/login.php'
+url = "http://192.168.122.131/dvwa/login.php"
 
 # Get
 response = requests.get(url)

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-import argparse                     # https://docs.python.org/3/library/argparse.html
-import re                           # https://docs.python.org/3/library/re.html
-import requests                     # https://docs.python-requests.org/en/master/
-import textwrap                     # https://docs.python.org/3/library/textwrap.html
-import urllib.parse as urlparse     # https://docs.python.org/3/library/urllib.parse.html
+import argparse  # https://docs.python.org/3/library/argparse.html
+import re  # https://docs.python.org/3/library/re.html
+import requests  # https://docs.python-requests.org/en/master/
+import textwrap  # https://docs.python.org/3/library/textwrap.html
+import urllib.parse as urlparse  # https://docs.python.org/3/library/urllib.parse.html
 
 
 def get_args():
@@ -18,7 +18,9 @@ def get_args():
         """
         ),
     )
-    parser.add_argument("-u", "--url", default="http://192.168.122.131/mutillidae", help="target url")
+    parser.add_argument(
+        "-u", "--url", default="http://192.168.122.131/mutillidae", help="target url"
+    )
     values = parser.parse_args()
     return values
 
