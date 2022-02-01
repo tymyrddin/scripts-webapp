@@ -11,7 +11,7 @@ With many thanks to [EONRaider](https://github.com/EONRaider), [BlackHat](https:
 
 All scripts start generic to be [expandable to various specific scenarios](https://github.com/tymyrddin/darkest-forest/tree/main/application-hacking).
 
-- [ ] [Helpful resources](helpful_resources)
+- [x] [Helpful resources](helpful_resources)
 - [x] [Simple crawler](crawler)
 - [x] [Simple spider](spider)
 - [ ] [Mapping WordPress](mapping_wordpress)
