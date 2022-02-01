@@ -1,5 +1,6 @@
 # Helpful resources
 
-* The urllib library
-* The requests library
-* The lxml and BeautifulSoup packages
+* `urllib` library
+* `requests` library <=
+* `lxml` package
+* `BeautifulSoup` package <=
