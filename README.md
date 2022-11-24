@@ -1,11 +1,9 @@
 # Reomais
 
 Another interesting way to practice some more with Python 3: Website/Web Application hacking scripts.
-With many thanks to [EONRaider](https://github.com/EONRaider), [BlackHat](https://www.blackhat.com/), and [ZSecurity](https://zsecurity.org/).
-
 ## Requirements
 
-<img align="left" src="https://github.com/tymyrddin/attack-trees/blob/main/assets/images/warning.png">_Do not implement and execute these on a network or system you do not own. Execute only on [your own systems for learning purposes](https://github.com/tymyrddin/ymrir/wiki). Do not execute these on any production network or system, unless "Rules of engagement" have been agreed on, and you have a "Get out of jail free" card of some sort. The scripts have defaults set for our lab. If you wish to run these scripts, change the defaults for your context or provide arguments._
+_Do not implement and execute these on a network or system you do not own. Execute only on [your own systems for learning purposes](https://github.com/tymyrddin/ymrir/wiki). Do not execute these on any production network or system, unless "Rules of engagement" have been agreed on, and you have a "Get out of jail free" card of some sort. The scripts have defaults set for our lab. If you wish to run these scripts, change the defaults for your context or provide arguments._
 
 ## Scripts
 
@@ -23,7 +21,6 @@ All scripts start generic to be [expandable to various specific scenarios](https
 - [ ] [Burp fuzzing](burp_fuzzing)
 - [ ] [Bing for Burp](bing_burp)
 - [ ] [Burp better wordlists](password_gold)
-
 
 ## Problems or Suggestions
 
