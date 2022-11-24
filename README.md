@@ -11,8 +11,6 @@ _Do not implement and execute these on a network or system you do not own. Execu
 - [x] [Simple crawler](crawler)
 - [x] [Simple spider](spider)
 - [x] [Mapping WordPress](mapping_wordpress) <= in progress
-- [ ] [Brute-forcing directories and file locations](bf_locations)
-- [ ] [Brute-forcing WP HTML form authentication](bf_forms)
 - [x] [Password guessing](password_guessing)
 - [x] [Vulnerability scanner](scanner) <= in progress
 - [ ] [Burp fuzzing](burp_fuzzing)
