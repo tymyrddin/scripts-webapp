@@ -6,16 +6,17 @@ _Do not implement and execute these on a network or system you do not own. Execu
 
 ## Scripts
 
+### Getting started
+
 - [x] [Helpful resources](helpful_resources)
-- [x] [Email crawler](email-crawler) <= in progress
+- [x] [Email crawler](email-crawler)
 - [x] [Simple crawler](crawler)
 - [x] [Simple spider](spider)
-- [x] [Mapping WordPress](mapping_wordpress) <= in progress
 - [x] [Password guessing](password_guessing)
-- [x] [Vulnerability scanner](scanner) <= in progress
-- [ ] [Burp fuzzing](burp_fuzzing)
-- [ ] [Bing for Burp](bing_burp)
-- [ ] [Burp better wordlists](password_gold)
+
+## BBH
+
+- [x] [Recon scripts](recon)
 
 ## Problems or Suggestions
 

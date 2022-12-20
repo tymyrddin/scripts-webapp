@@ -1,0 +1,17 @@
+nmap_scan()
+{
+	nmap $DOMAIN > $DIRECTORY/nmap
+	printf "[+] The results of nmap scan are stored in $DIRECTORY/nmap.\n"
+}
+
+dirsearch_scan()
+{
+	python3 $PATH_TO_DIRSEARCH/dirsearch.py -u $DOMAIN -e php,html,js --format simple -o $DIRECTORY/dirsearch -q
+	printf "[+] The results of dirsearch scan are stored in $DIRECTORY/dirsearch.\n"
+}
+
+crt_scan()
+{
+	curl "https://crt.sh/?q=$DOMAIN&output=json" -o $DIRECTORY/crt
+	printf "[+] The results of cert parsing are stored in $DIRECTORY/crt.\n"
+}
