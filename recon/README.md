@@ -1,4 +1,4 @@
-# Just the basics
+# Recon scripts
 
 These recon scripts are made on and for Kali. The Kali Qemu VM runs a `zsh`, so the hashbang for these scripts is `#!/usr/bin/env bash`.
 
