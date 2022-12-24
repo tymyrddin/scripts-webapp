@@ -8,7 +8,7 @@ _Do not implement and execute these on a network or system you do not own. Execu
 
 ### Getting started
 
-- [x] [Helpful resources](helpful_resources)
+- [x] [Helpful code resources](helpful_resources)
 - [x] [Email crawler](email-crawler)
 - [x] [Simple crawler](crawler)
 - [x] [Simple spider](spider)
@@ -17,6 +17,7 @@ _Do not implement and execute these on a network or system you do not own. Execu
 ## BBH
 
 - [x] [Recon scripts](recon)
+- [x] [Resources for automating web application pentesting](resources)
 
 ## Problems or Suggestions
 

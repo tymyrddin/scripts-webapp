@@ -1,4 +1,4 @@
-# Helpful resources
+# Helpful code resources
 
 ## Libraries and packages
 
