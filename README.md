@@ -17,7 +17,7 @@ _Do not implement and execute these on a network or system you do not own. Execu
 ## BBH
 
 - [x] [Recon scripts](recon)
-- [x] [Resources for automating web application pentesting](resources)
+- [x] [Resources for application pentesting](resources)
 
 ## Problems or Suggestions
 
