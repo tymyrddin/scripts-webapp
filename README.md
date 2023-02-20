@@ -14,6 +14,10 @@ _Do not implement and execute these on a network or system you do not own. Execu
 - [x] [Simple spider](spider)
 - [x] [Password guessing](password_guessing)
 
+## Portswigger labs
+
+- [x] [Custom gadget chain for Java deserialisation](java-gadget-chain)
+
 ## BBH
 
 - [x] [Recon scripts](recon)
