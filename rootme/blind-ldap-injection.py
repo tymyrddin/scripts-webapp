@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-en_alphabet_and_numbers = [chr(i).lower() for i in range(ord("A"), ord("Z") + 1)] + [
+symbols = [chr(i).lower() for i in range(ord("A"), ord("Z") + 1)] + [
     str(i) for i in range(0, 10)
 ]
 password = []
@@ -31,7 +31,7 @@ def check_response(response, possible_password):
 
 def brute():
     for _iteration in range(0, 10):
-        for symbol in en_alphabet_and_numbers:
+        for symbol in symbols:
             if not password:
                 send_request(symbol)
             else:
