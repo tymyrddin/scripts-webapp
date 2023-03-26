@@ -13,8 +13,8 @@ Editor used: [sublimetext](https://www.sublimetext.com/docs/linux_repositories.h
 
 ## Notes on dirsearch
 
-Instead of using Kali's `dirsearch`, I cloned the latest `dirsearch.py` from GitHub in the same location as my script, 
-making the path to the `dirsearch.py` script `dirsearch/dirsearch.py`, and in the `recon.sh` script setting a path 
+Instead of using Kali's `dirsearch`, I cloned the latest `dirsearch.py` from GitHub in the same location as my script,
+making the path to the `dirsearch.py` script `dirsearch/dirsearch.py`, and in the `recon.sh` script setting a path
 variable. Easy changes.
 
     git clone https://github.com/maurosoria/dirsearch.git

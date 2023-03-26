@@ -2,9 +2,10 @@
 
 import argparse  # https://docs.python.org/3/library/argparse.html
 import re  # https://docs.python.org/3/library/re.html
-import requests  # https://docs.python-requests.org/en/master/
 import textwrap  # https://docs.python.org/3/library/textwrap.html
 import urllib.parse as urlparse  # https://docs.python.org/3/library/urllib.parse.html
+
+import requests  # https://docs.python-requests.org/en/master/
 
 
 def get_args():
@@ -12,7 +13,7 @@ def get_args():
         description="Simple spider",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=textwrap.dedent(
-            """Example: 
+            """Example:
             spider.py -u http://192.168.122.131/mutillidae      # metasploitable
             spider.py -u https://example.com                    # outside lab
         """
@@ -45,7 +46,6 @@ def crawl(target_url):
 
 
 if __name__ == "__main__":
-
     options = get_args()
     target_links = []
     try:

@@ -3,11 +3,11 @@
 import contextlib  # https://docs.python.org/3/library/contextlib.html
 import os  # https://docs.python.org/3/library/os.html
 import queue  # https://docs.python.org/3/library/queue.html
-import requests  # https://docs.python-requests.org/en/master/
 import sys  # https://docs.python.org/3/library/sys.html
 import threading  # https://docs.python.org/3/library/threading.html
 import time  # https://docs.python.org/3/library/time.html
 
+import requests  # https://docs.python-requests.org/en/master/
 
 FILTERED = [".jpg", ".gif", ".png", ".css"]
 TARGET = "http://some/wordpress"
@@ -54,7 +54,7 @@ def test_remote():
 
 
 def run():
-    mythreads = list()
+    mythreads = ()
     for i in range(THREADS):
         print(f"[+] Spawning thread {i}")
         t = threading.Thread(target=test_remote)

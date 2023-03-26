@@ -2,7 +2,6 @@
 
 import requests  # https://docs.python-requests.org/en/master/
 
-
 target_url = "http://192.168.122.131/dvwa/login.php"
 data = {"username": "admin", "password": "", "Login": "submit"}
 

@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 
 from io import BytesIO  # https://docs.python.org/3/library/io.html
-from lxml import etree  # https://gregoryvigotorres.github.io/lxml_docs/index.html
 
 import requests  # https://docs.python-requests.org/en/master/
+from lxml import etree
+
+# https://gregoryvigotorres.github.io/lxml_docs/index.html
 
 url = "https://nostarch.com"
 

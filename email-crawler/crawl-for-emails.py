@@ -1,12 +1,13 @@
-from bs4 import BeautifulSoup
+import re
+from collections import deque
+from urllib.parse import urlsplit
+
 import requests
 import requests.exceptions
-from urllib.parse import urlsplit
-from collections import deque
-import re
+from bs4 import BeautifulSoup
 
 # a queue of urls to be crawled
-new_urls = deque(['http://www.themoscowtimes.com/contact_us/index.php'])
+new_urls = deque(["http://www.themoscowtimes.com/contact_us/index.php"])
 
 # a set of urls that we have already crawled
 processed_urls = set()
@@ -23,7 +24,7 @@ while len(new_urls):
     # extract base url to resolve relative links
     parts = urlsplit(url)
     base_url = "{0.scheme}://{0.netloc}".format(parts)
-    path = url[:url.rfind('/')+1] if '/' in parts.path else url
+    path = url[: url.rfind("/") + 1] if "/" in parts.path else url
 
     # get url's content
     print("Processing %s" % url)
@@ -34,7 +35,9 @@ while len(new_urls):
         continue
 
     # extract all email addresses and add them into the resulting set
-    new_emails = set(re.findall(r"[a-z0-9\.\-+_]+@[a-z0-9\.\-+_]+\.[a-z]+", response.text, re.I))
+    new_emails = set(
+        re.findall(r"[a-z0-9\.\-+_]+@[a-z0-9\.\-+_]+\.[a-z]+", response.text, re.I)
+    )
     emails.update(new_emails)
 
     # create a beutiful soup for the html document
@@ -43,12 +46,13 @@ while len(new_urls):
     # find and process all the anchors in the document
     for anchor in soup.find_all("a"):
         # extract link url from the anchor
-        link = anchor.attrs["href"] if "href" in anchor.attrs else ''
+        link = anchor.attrs["href"] if "href" in anchor.attrs else ""
     # resolve relative links
-    if link.startswith('/'):
+    if link.startswith("/"):
         link = base_url + link
-    elif not link.startswith('http'):
+    elif not link.startswith("http"):
         link = path + link
-    # add the new url to the queue if it was not enqueued nor processed yet
-    if not link in new_urls and not link in processed_urls:
+    # add the new url to the queue if it was not enqueued nor processed
+    # yet
+    if link not in new_urls and link not in processed_urls:
         new_urls.append(link)

@@ -18,6 +18,10 @@ _Do not implement and execute these on a network or system you do not own. Execu
 
 - [x] [Custom gadget chain for Java deserialisation](java-gadget-chain)
 
+## Root-Me
+
+- [ ] [/JSON Web Token (JWT) - Weak secret](jwt)
+
 ## BBH
 
 - [x] [Recon scripts](recon)

@@ -1,0 +1,15 @@
+# requirements.in
+requests
+pyjwt
+black
+isort-black-compat
+flake8
+flake8-bugbear
+flake8-builtins
+flake8-comprehensions
+mccabe
+pep8-naming
+pycodestyle
+pyflakes
+Flake8-pyproject
+bs4

@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
 import argparse  # https://docs.python.org/3/library/argparse.html
-import requests  # https://docs.python-requests.org/en/master/
 import textwrap  # https://docs.python.org/3/library/textwrap.html
+
+import requests  # https://docs.python-requests.org/en/master/
 
 
 def get_args():
@@ -10,9 +11,9 @@ def get_args():
         description="Discover hidden subdomains and url's",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=textwrap.dedent(
-            """Example: 
-            crawler.py -u 192.168.122.131/mutillidae -t dirs    # metasploitable
-            crawler.py -u google.com -t subdomains              # outside lab
+            """Example:
+            crawler.py -u 192.168.122.131/mutillidae -t dirs   # metasploitable
+            crawler.py -u google.com -t subdomains             # outside lab
         """
         ),
     )
@@ -58,7 +59,6 @@ def discover_hidden_urls(target_url):
 
 
 if __name__ == "__main__":
-
     options = get_args()
     try:
         if options.type == "urls":

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-from bs4 import BeautifulSoup  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-
 import re  # https://docs.python.org/3/library/re.html
-import requests  # https://docs.python-requests.org/en/master/
 import urllib.parse as urlparse  # https://docs.python.org/3/library/urllib.parse.html
+
+import requests  # https://docs.python-requests.org/en/master/
+from bs4 import BeautifulSoup  # https://www.crummy.com/software/BeautifulSoup/bs4/doc/
 
 
 class Scanner:
@@ -65,7 +65,7 @@ class Scanner:
     def run_scanner(self):
         for link in self.target_links:
             forms = self.extract_forms(link)
-            for form in forms:
+            for _form in forms:
                 print("[+] Testing form in " + link)
                 # ...
             if "=" in link:

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-from bs4 import BeautifulSoup  # https://docs.python-requests.org/en/master/
+import urllib.parse as urlparse  # https://docs.python.org/3/library/urllib.parse.html
 
 import requests  # https://docs.python-requests.org/en/master/
-import urllib.parse as urlparse  # https://docs.python.org/3/library/urllib.parse.html
+from bs4 import BeautifulSoup  # https://docs.python-requests.org/en/master/
 
 
 def request(url):

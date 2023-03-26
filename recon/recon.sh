@@ -32,7 +32,7 @@ do
 			;;
 	esac
 
-	# Creating the report 
+	# Creating the report
 	printf "[+] Generating recon report for $DOMAIN from output files ...\n"
 	TODAY=$(date)
 
