@@ -20,7 +20,8 @@ _Do not implement and execute these on a network or system you do not own. Execu
 
 ## Root-Me
 
-- [ ] [/JSON Web Token (JWT) - Weak secret](jwt)
+- [x] [JWT Weak secret](rootme/jwt-weak-secret.py)
+- [x] [Blind LDAP injection](rootme/blind-ldap-injection.py)
 
 ## BBH
 

@@ -2,9 +2,8 @@
 
 import json
 
-import requests
-
 import jwt
+import requests
 from jwt.exceptions import InvalidSignatureError
 
 

@@ -6,7 +6,11 @@
 #
 attrs==22.2.0
     # via flake8-bugbear
+beautifulsoup4==4.12.0
+    # via bs4
 black==23.1.0
+    # via -r requirements.in
+bs4==0.0.1
     # via -r requirements.in
 certifi==2022.12.7
     # via requests
@@ -20,12 +24,15 @@ flake8==6.0.0
     #   flake8-bugbear
     #   flake8-builtins
     #   flake8-comprehensions
+    #   flake8-pyproject
     #   pep8-naming
 flake8-bugbear==23.3.23
     # via -r requirements.in
 flake8-builtins==2.1.0
     # via -r requirements.in
 flake8-comprehensions==3.11.1
+    # via -r requirements.in
+flake8-pyproject==1.2.3
     # via -r requirements.in
 idna==3.4
     # via requests
@@ -57,7 +64,11 @@ pyjwt==2.6.0
     # via -r requirements.in
 requests==2.28.2
     # via -r requirements.in
+soupsieve==2.4
+    # via beautifulsoup4
 tomli==2.0.1
-    # via black
+    # via
+    #   black
+    #   flake8-pyproject
 urllib3==1.26.15
     # via requests
