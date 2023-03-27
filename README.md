@@ -20,7 +20,6 @@ _Do not implement and execute these on a network or system you do not own. Execu
 
 ### Root-Me
 
-- [x] [JWT Weak secret](rootme/jwt-weak-secret.py)
 - [x] [Blind LDAP injection](rootme/blind-ldap-injection.py)
 
 ### BBH
